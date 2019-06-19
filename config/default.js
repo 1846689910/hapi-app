@@ -57,6 +57,7 @@ module.exports = {
       options: {
         pageTitle: "hapi-app",
         insertTokenIds: false,
+        htmlFile: "static/index.html",
         paths: {
           "/{args*}": {
             content: {
@@ -67,7 +68,7 @@ module.exports = {
       }
     }, //
     "electrode-cookies/hapi-plugin": {}
-    // 
+    //
   },
   connections: {
     default: {
